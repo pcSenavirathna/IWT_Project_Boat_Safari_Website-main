@@ -1,0 +1,124 @@
+/*colouring of the username*/
+#username{
+    color:white;
+} 
+
+/*changing height of background*/
+.outer_main{
+    height:80%;
+}
+
+.box{
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity:0.8;
+    width: 50%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+.text{
+    opacity: 0.99;
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.form_form {
+    margin-top:5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_form label {
+    flex-basis: 200px;
+}
+
+.form_form div {
+    display: flex;
+    align-items: center;
+}
+
+.cardtype{
+    margin-left: 2%;
+}
+
+.a_addedCards{
+    margin-left: 10%;
+}
+
+.addedCards{
+    height: 55px;
+    border-radius: 10%;
+    background-color: lightslategray;
+    color: white;
+    border: black;
+}
+
+.addedCards:hover{
+    background-color: grey;
+}
+.submitPayDiv{
+    margin-left: 2%;
+}
+/*changing the edit button*/
+.submitPay{
+    background-color: transparent;
+    border: transparent;
+    color: blue;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+/*changing colour of edit button when it hovers*/
+.submitPay:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 15%;
+}
+
+/*styling input forms*/
+.text_form{
+    width:300px;
+    border: none;
+    background-color: transparent;
+    font-size: inherit;
+    color: rgb(58, 52, 52);
+}
+
+/*removing the outline of text boxes when it is clicked*/
+.text_form:focus{
+    outline:none;
+}
+
+/*changing colour of placeholders*/
+.text_form::placeholder{
+    color: rgb(29, 28, 28);
+}
+
+hr{
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+
+#bottomHR{
+    margin-bottom: 5%;
+}
+
+.cardbutton{
+    margin-left: 10%;
+    height: 55px;
+    margin-bottom: 3%;
+    border-radius: 10%;
+    background-color: lightslategray;
+    border: black;
+}
+.cardbutton:hover{
+    background-color: grey;
+}

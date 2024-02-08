@@ -1,0 +1,225 @@
+		body {
+            font-family: 'Roboto Slab', serif;
+            /*background-image: url("Images\AboutUs\A_body.jpg"); */
+			background: linear-gradient(90deg,#123456 ,#567893);
+        }
+		
+        .topic1 {
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            font-size: 33px;
+        }
+
+		.main_line {
+			display: block;
+			width: 80%;
+			margin: auto;
+			left: 10%;
+		}
+
+        .para1 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 21px;
+            text-align: center;
+        }
+
+        .para2 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 23px;
+            text-align: center;
+			color:beige;
+        }
+		.team{
+			position:relative;
+			width:100%;
+			height: 65vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.team_content{
+			width:100%;
+			max-width: 1100px ;
+			margin: 0 auto; 
+			margin-left:5%;
+			margin-right: 5%;
+			display: grid ;
+			grid-template-columns : repeat(auto-fit, minmax(150px, auto));
+			align-items: center;
+			gap : 4rem;
+			text-align: center;
+			margin-top: 3rem; 
+		}
+
+		.team_content img{
+			width: 175px;
+			height:  200px;
+			border-radius: 15px;
+			margin-bottom: 15px;
+		}
+		
+		
+		.box{
+			padding: 16px;
+			border-radius: 15px;
+			transition: all.38s ease;
+			background:#0e101a;
+		}
+
+		.box h3{
+			font-size: 23px;
+			font-weight: 600;
+			color:#ffffff;
+			margin-bottom: 8px;
+		}
+		
+		.box h5{
+			font-size: 15px;
+			font-weight: 600;
+			color:#8d8383;
+			margin-bottom: 15px;
+			letter-spacing: 2px;
+		}
+
+
+
+
+
+
+
+        
+        header {
+            position: relative;
+            padding: 0;
+        }
+
+        .navbar {
+            position: sticky;
+            width: 100%;
+            height: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+		
+		 .navbar .imglogo {
+                justify-content: space-between;
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+             .navbar .imglogo .logo a {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+
+             .navbar .imglogo .imag a {
+                    padding-left: 8%;
+                }
+
+            .navbar .links {
+                display: flex;
+                gap: 4rem;
+            }
+
+            .navbar .toggle_btn {
+                color: white;
+                font-size: 1rem;
+                cursor: pointer;
+                display: none;
+            }
+
+			.action_btn {
+				background-color: orange;
+				color: white;
+				padding: 0.5rem 1rem;
+				border: none;
+				outline: none;
+				border-radius: 15px;
+				font-size: 0.8rem;
+				font-weight: bold;
+				cursor: pointer;
+				transition: scale 0.2 ease;
+			}
+
+            .action_btn:hover {
+                scale: 1.08;
+                color: white;
+            }
+
+            .action_btn:active {
+                scale: 0.95;
+            }
+
+        header {
+            position: relative;
+            padding: 0;
+        }
+
+        .navbar {
+            position: sticky;
+            width: 100%;
+            height: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .navbar .imglogo {
+                justify-content: space-between;
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+                .navbar .imglogo .logo a {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+
+                .navbar .imglogo .imag a {
+                    padding-left: 8%;
+                }
+
+            .navbar .links {
+                display: flex;
+                gap: 4rem;
+            }
+
+            .navbar .toggle_btn {
+                color: white;
+                font-size: 1rem;
+                cursor: pointer;
+                display: none;
+            }
+
+        .action_btn {
+            background-color: orange;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: scale 0.2 ease;
+        }
+
+            .action_btn:hover {
+                scale: 1.08;
+                color: white;
+            }
+
+            .action_btn:active {
+                scale: 0.95;
+            }
+
+			 

@@ -1,0 +1,82 @@
+/*colouring of the username*/
+#username{
+    color:white;
+} 
+
+/*changing opacity of background*/
+.outer_main{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #ccc;
+}
+
+/*keeping gap betwwen the upper navigation bar and sub navigation bar*/
+.nav_bar{  
+    margin-top: 5%;
+}
+
+/*making the list style to non*/
+ul.inner_nav {
+    list-style-type: none;
+}
+/*making nav bar horizontal*/
+ul.inner_nav li{
+    float: left;
+}
+/*styling the navigation bar elements*/
+ul.inner_nav li a{
+	font-size: 100%;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 5px;
+    border-color: black;
+	opacity: 0.9; 
+	color: black;
+}
+
+/*changing the background colour of navigation bar elements when its hovering*/
+ul.inner_nav li a:hover{
+    background-color: gray;
+}
+
+/*changing the background colour of the active navigation bar element*/
+ul.inner_nav li a.now_actives{
+    background-color: lightgray;
+}
+
+h3{
+    font-size: 150%;
+}
+
+.topHR{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/*aligning the two blocks vertically*/
+.main_block{
+    display: flex;
+}
+
+.block {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.block label, .block p{
+    margin-left: 25%;
+}
+
+/*making the labels and paragraphs to be in the same line*/
+.block label,
+.block p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 11%;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+}

@@ -1,0 +1,153 @@
+.bgimage img{
+    position: fixed;
+    background-size: cover;
+}
+
+.header{
+  position: fixed;
+  margin-left: 15px;
+}
+.content{
+  max-width: 600px;
+  color: white;
+  position: absolute;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 160px;
+  margin-left: 10%;
+}
+
+.content h2{
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin-left: 40px;
+}
+
+.content p{
+  margin: 10px 40px 40px;
+  font-size: 30px;
+}
+
+.login-text{
+  margin-left: 60%;
+  
+}
+.login-text .log-heading {
+  color: white;
+  padding-top: 10%;
+}
+
+.login-text .log-heading .input-box,h2,.remember,.btn,.register-link{
+  position: relative;
+  width: 400px;
+}
+.login-text{
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  margin-top: 100px;
+  width: 450px;
+  padding-left:35px;
+  border-radius: 50px;
+  height: 85%;
+
+}
+.log-heading h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+.log-heading .input-box{
+  position: relative;
+  width:100%;
+  height: 50px;
+  margin: 70px 0; 
+}
+
+.input-box input{
+  width: 96%;
+  height: 100%;
+  background: transparent;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 40px;
+  font-size: 20px;
+  color: white;
+  padding-left: 14px;
+  font-weight: 500;
+}
+
+.input-box label{
+  position: absolute;
+  top: 50%;
+  font-size: 25px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: .5s;
+  padding-left: 10%;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+  font-size: 30px;
+  top: -30px;
+}
+
+
+.log-heading .remember{
+  font-size: 20px;
+  font-weight: 500;
+  margin: -20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+
+}
+
+.remember label input{
+  accent-color: black;
+  text-decoration: none;
+}
+
+.remember a{
+  color: white;
+  text-decoration: none;
+}
+
+.remember a:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  background: linear-gradient(180deg,darkorange,rgb(237, 181, 113));
+  border-radius: 50px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover{
+  background: linear-gradient(180deg,rgb(183, 100, 0),rgba(211, 158, 94, 0.96));
+  color: black;
+}
+
+
+
+.log-heading .register-link{
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0
+}
+
+.register-link p a{
+  font-weight: 600;
+  color: white;
+}
+
+.register-link p a:hover{
+  text-decoration: underline;
+}
+

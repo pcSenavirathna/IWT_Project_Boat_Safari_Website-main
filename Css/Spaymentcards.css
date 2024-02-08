@@ -1,0 +1,68 @@
+/*colouring of the username*/
+#username{
+    color:white;
+} 
+
+/*changing opacity of background*/
+.outer_main{
+    background-color: white;
+    height:80%;
+    opacity: 0.6;
+}
+
+
+ul.editting_buttons {
+    list-style-type: none;
+}
+/*making buttons horizontal*/
+ul.editting_buttons li{
+    float: left;
+}
+/*styling the navigation bar elements*/
+ul.editting_buttons li a{
+    height: 20px;
+	font-size: 100%;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 5px;
+    border-color: black;
+	opacity: 0.9; 
+	color: black;
+}
+
+/*changing the background colour of navigation bar elements when its hovering*/
+ul.editting_buttons li a:hover{
+    background-color: gray;
+}
+
+table {
+    margin-top: 1%;
+    width:100%;
+    border-spacing: 20px;
+}
+
+th, td {
+    text-align: center;
+}
+
+.back_back{
+    margin-left: 3%;
+}
+
+.back_button{
+    margin-top: 3%;
+	font-size: 100%;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 5px;
+    border-color: black;
+	opacity: 0.9; 
+	color: black;
+    background-color: lightgray;
+}
+
+.back_button:hover{
+    background-color: gray;
+}

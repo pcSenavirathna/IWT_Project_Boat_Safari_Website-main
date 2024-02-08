@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	font-family: 'Roboto Slab', serif;	
+}
+
+section{
+	width: 98%;
+	height: 100vh;
+	position: relative;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+}
+
+
+.rectangle {
+    position: fixed;
+  height: 60px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}	
+
+li{
+	list-style: none;	
+}	
+
+a{
+	text-decoration:none;
+	color:white;
+	font-size: 1rem;
+}	
+
+a:hover{
+	color:orange;
+}	
+
+.active{
+	color: orange;
+}
+
+.hactive{
+	color: orange;
+}
+
+/*header*/
+header{
+	position: fixed;
+	padding: 0 ;
+	z-index: 1;
+}
+
+.navbar{
+
+	width:100%;
+	height:60px;
+	max-width:1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;	
+}	
+.navbar .imglogo
+{
+	justify-content:space-between;
+	display:flex;
+	gap:0.5rem;
+	align-items:center;
+}
+
+.navbar .imglogo .logo a{
+	font-size:1.5rem;
+	font-weight:bold;	
+}
+
+.navbar .imglogo .imag a{
+	padding-left:8%;		
+}
+
+.navbar .links{
+	display:flex;
+	gap:4rem;
+}
+
+.navbar .toggle_btn{
+	color:white;
+	font-size:1rem;
+	cursor:pointer;
+	display: none;
+}
+
+.action_btn{
+background-color:orange;
+	color: white;
+	padding: 0.5rem 1rem;
+	border:none;
+	outline:none;
+	border-radius:15px;
+	font-size:0.8rem;
+	font-weight:bold;
+	cursor: pointer;
+	transition: scale 0.2 ease;
+}
+.action_btn:hover{
+	scale:1.08;
+	color: white;
+}
+
+.action_btn:active{
+	scale:0.95;
+}
+
+#username{
+	color: white;
+}

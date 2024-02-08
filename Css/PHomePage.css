@@ -1,0 +1,375 @@
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body{
+	height: 1000px;
+}
+
+.banner video{
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+section .caption{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,.5);
+	width: 700px;
+	border-radius: 50px;
+}
+
+section .caption h3{
+	color: white;
+	font-size: 55px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	font-family: Century Gothic;
+	opacity: 75%; 
+
+}
+
+section .caption a{
+	font-size: 30px;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	line-height: 95px;
+	text-transform: uppercase;
+	border: 2px solid white;
+	color: white;
+	padding: 14px 30px;
+}
+
+section .caption a:hover{
+	background-color: white;
+	color:black;
+}
+
+section .caption p{
+	font-size: 25px;
+	font-weight: 300;
+	font-family: Noto;
+	text-align: center;
+}
+
+.stdes{
+	text-align: center;
+	background: linear-gradient(180deg,rgb(255, 169, 63), rgb(118, 67, 0));
+	color: white;
+}
+
+.stdes h4{
+	font-family:Comic Sans MS ;
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.stdes h1{
+	font-family:Comic Sans MS ;
+	font-size: 40px;
+}
+
+.stdes p{
+	font-size: 24px;
+	font-family:Comic Sans MS;
+}
+/*image slide auto */
+.imgslider{
+	width: 100%;
+	position: absolute;
+
+}
+
+.imgslider .slide{
+	z-index:2;
+	position: absolute;
+	width: 100%;
+	clip-path: circle(0% at 0 50%);
+}
+
+/*image opening design part*/
+.imgslider .slide.active{
+	clip-path: circle(150% at 0 50%);
+	transition: 3s;
+	z-index: -1;
+}
+
+.imgslider .slide img{
+	z-index: 1;
+	width:100%;
+	border-radius: 5px;
+}
+
+.imgslider .slide .info{
+	position: absolute;
+	top: 30%;
+	color: white;
+	padding: 15px 10px;
+	background-color: black;
+	opacity: 75%;
+}
+
+.imgslider .slide .info h2{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+.imgslider .navigation{
+	z-index: 2;
+	position: absolute;
+	display: flex;
+	top: 560px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.imgslider .navigation .btn{
+	background: white;
+	width: 12px;
+	height: 12px;
+	margin: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+/*active button design*/ 
+.imgslider .navigation .btn.active{
+	background: rgb(0, 132, 255);
+}
+
+/*main photos descriptions animation*/
+.imgslider .slide.active .info{
+	animation: slide-up 2s;
+}
+
+/*hr bar*/
+.sub-navbar{
+	padding-top: 595px;
+}
+
+/*scoll button*/
+.scroll-top{
+	padding-left: 95%;
+	background-color: white;
+	
+}
+
+.scroll-top img{
+	width: 60px;
+	height: 60px;
+}
+
+/*Gallery*/
+.gallery{
+	background-color: rgb(249, 153, 36);
+	height: auto;
+}
+.gallery h1{
+	text-align: center;
+	font-size:60px;
+	color: green;
+	padding-top: 1%;
+}
+
+.gallery .gallery-photos{
+	margin: 2% 2%;
+}
+
+.gallery .gallery-photos img{
+	width: 340px;
+	padding: 10px;
+	filter: grayscale(80%);
+	transition: 1s;
+}
+
+.gallery .gallery-photos img:hover{
+	cursor: pointer;
+	filter: grayscale(0%);
+	transform: scale(1.1);
+}
+
+/*feedback*/
+
+.feedback h1{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;	
+}
+
+.feedback hr{
+	width: 25%;
+	margin: auto;
+}
+
+.box-container{
+	display: flex;
+	width: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box1{
+	width: 400px;
+	box-shadow: 1px 1px 10px;
+	padding: 20px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.box1:hover{
+	transform: translateY(-10px);
+	transition: all ease 0.5s;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+}
+
+.profile-image{
+	width: 50px;
+	height: 50px;
+}
+
+.profile-image img{
+	width: 100%;
+	height: 100%;
+}
+
+.name-user{
+	display: flex;
+	flex-direction: column;
+}
+
+.name-user b{
+	color: #3d3d3d;
+	font-size: 1.1rem;
+	letter-spacing: 0.5px;
+}
+
+.name-user span{
+	color: #979797;
+	font-size: 0.8rem;
+}
+
+.reviews{
+	color: rgb(253, 229, 13);
+}
+
+.box-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.user-comment p{
+	font-size: 0.9rem;
+	color: #4b4b4b;
+}
+
+.feedback form{
+	background-color: rgb(78, 26, 22);
+	border-radius: 20px;
+	height: 400px;
+	width: 600px;
+	margin: 10px 10%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.feedback p{
+	margin: 20px 20px;
+	font-size: 25px;
+}
+
+.feedback form textarea{
+	margin: auto;
+	padding-left: 15px;
+	border-radius: 15px;
+	font-size: 17px;
+	resize: none;
+}
+
+/*rate button*/
+form .star{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: -30px;
+}
+
+form .star input{
+	display: none;
+}
+
+form .star label{
+	font-size: 70px;
+	color: gold;
+	margin: 0 5px;
+	text-shadow: 1px 1px gray;
+}
+
+ 
+form .star label:before{
+	content: '★';
+}
+
+form .star input:checked ~ label{
+	color: gray;
+}
+
+.star:not(:checked) > label:hover{
+	color: gold;
+}
+
+.feedback form input{
+	margin-bottom: 10px;
+	width: 350px;
+	margin:auto;
+	border-radius: 15px;
+	height: 50px;
+	font-size: 30px;
+	background: linear-gradient(180deg,rgb(255, 255, 255),rgba(247, 235, 221, 0.96));
+	font-family: 'Roboto Slab', serif;
+}
+
+.feedback form input:hover{
+	cursor: pointer;
+	background: linear-gradient(180deg,rgb(14, 255, 46),rgb(3, 90, 15));
+}
+
+form a{
+	position: absolute;
+}
+
+form img{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 70px;
+}
+
+form .image2{
+	padding-left: 350px;
+}
+
+
+.active{
+	color: orange;
+}
+

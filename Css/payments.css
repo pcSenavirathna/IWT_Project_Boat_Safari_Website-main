@@ -1,0 +1,43 @@
+*
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+body{
+	height:100vh;
+	background:linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+	background-size:contain;
+	background-position:50%;	
+	background-repeat:no-repeat ;
+}
+
+.view{
+	width: 50%;
+    margin-left: 3%;
+    margin-top: 1%;
+	padding: 13px 10px;
+	color:black;
+	background-color: rgb(168, 164, 192);
+	display: inline-block;
+	border-radius: 10px; 
+	box-sizing: border-box;
+	cursor: pointer;
+  }
+
+  .view:hover{
+	scale:1.08;
+  }
+
+  .view:active{
+	scale:0.95;
+  }
+
+  .table{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
